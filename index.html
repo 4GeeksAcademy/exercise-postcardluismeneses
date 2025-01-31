@@ -1,1 +1,70 @@
-hello!! world
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>My postcard</title>
+		<style>
+			body {
+				background-color: black;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+			}
+			.card {
+				background-color: white;
+				max-width: 600px;
+				height: 350px;
+				width: 350px;
+			}
+			.header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 8px;
+			}
+			.content {
+				display: flex;
+				padding: 8px;
+			}
+			input {
+				width: 100px;
+				margin-bottom: 4px;
+			}
+			.footer {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 8px;
+				margin-top: 60px;
+			}
+			.inputs {
+				padding: 8px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="card">
+			<div class="header">
+				<h1>Mi postal</h1>
+				<img
+					src="https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png"
+					alt="Example Image"
+					width="50px"
+					height="50px"
+				/>
+			</div>
+			<div class="content">
+				<p>Crear una estructura básica HTML. Utilizar los tags vistos anteriormente desde cero. Conectar stylesheets.</p>
+				<div class="inputs">
+					<input placeholder="input1" />
+					<input placeholder="input2" />
+					<input placeholder="input3" />
+				</div>
+			</div>
+			<div class="footer">
+				<button>enviar</button>
+			</div>
+		</div>
+	</body>
+</html>
